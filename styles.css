@@ -1,0 +1,81 @@
+body {
+  display: flex;
+  margin: 0px;
+  padding: 0px;
+  flex-direction: column;
+  flex: 1 1 auto;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/*--HEADER-----------------------*/
+
+.header {
+  background-color: #1F2937;
+  height: 50px;
+  /* padding: 20px; */
+  flex-grow: 0;
+  border: 2px dotted red;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px dotted white;
+}
+
+.website-name{
+  color: #F9FAF8;
+  font-size: 24px;
+  border: 2px dotted yellow;
+}
+
+.header-links {
+  display: flex;
+  gap: 10px;
+  color: #F9FAF8;
+  font-size: 12px;
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+  border: 2px dotted yellow;
+}
+
+/*--HERO BOX-----------------------*/
+
+.hero-box {
+  display: flex;
+  flex-grow: 1;
+  background-color: #1F2937;
+  border: 2px dotted red;
+}
+
+/*--INFO BOX-----------------------*/
+
+/* .info-box {
+  background-color: white;
+  border: 2px dotted red;
+} */
+
+/*--QUOTE BOX-----------------------*/
+
+/* .quote-box {
+  background-color: #E5E7EB;
+  border: 2px dotted red;
+} */
+
+/*--SIGN-UP BOX-----------------------*/
+
+/* .sign-up-box {
+  background-color: white;
+  border: 2px dotted red;
+} */
+
+/*--FOOTER-----------------------*/
+
+.footer {
+  background-color: #1F2937;
+  height: 50px;
+  flex-grow: 0;
+  border: 2px dotted red;
+}
