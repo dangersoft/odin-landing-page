@@ -1,12 +1,12 @@
 body {
-  height: 100vh;
+  height: 1000px;
   display: flex;
-  overflow: hidden;
+  /* overflow: hidden; */
   margin: 0px;
   flex-direction: column;
-  padding-left: 100px;
-  padding-right: 100px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding-left: 250px;
+  padding-right: 250px;
+  font-family: 'Roboto', sans-serif;
 }
 
 
@@ -14,13 +14,17 @@ body {
 /*--HEADER-----------------------*/
 
 .header {
+  display: flex;
+  justify-content:flex-start;
+  align-items: center;
   height: 50px;
-  /* padding: 20px; */
+  padding: 10px 75px;
   background-color: aqua;
 }
 
 .header-content {
   display: flex;
+  flex: 1;
   justify-content: space-between;
   align-items: center;
   background-color: #1F2937
@@ -34,9 +38,9 @@ body {
 
 .header-links {
   display: flex;
-  gap: 10px;
+  gap: 20px;
   color: #F9FAF8;
-  font-size: 12px;
+  font-size: 18px;
   list-style: none;
   margin: 0px;
   padding: 0px;
@@ -47,7 +51,8 @@ body {
 
 .hero-box {
   display: flex;
-  padding: 15px 0px 15px 0px;
+  flex: 1;
+  padding: 30px 75px;
   color: white;
   background-color: lightpink;
 }
@@ -55,9 +60,9 @@ body {
 .hero-box-left {
   display: flex;
   flex: 1;
-  padding: 0px;
-  margin: 0px;
   flex-direction: column;
+  padding: 12px 12px 12px 0px;
+  margin: 0px;
   background-color: darkblue;
 }
 
@@ -72,17 +77,26 @@ body {
 }
 
 #hero-main-text {
+  font-size: 48px;
+  font-weight: 800;
+  color: #F9FAF8;
   margin: 0px;
   background-color: red;
 }
 
 #hero-secondary-text {
-  margin: 0px;
   background-color: red;
+  margin: 0px;
+  color: #E5E7EB;
+  font-size: 18px;
 }
 
 #hero-button {
-
+  width: 100px;
+  border: none;
+  border-radius: 5px;
+  margin-top: 5px;
+  padding: 4px 0px;
   color: #F9FAF8;
   background-color: #3882F6;
 }
@@ -120,5 +134,4 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 2px dotted red;
 }
