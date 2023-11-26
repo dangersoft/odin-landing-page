@@ -15,36 +15,34 @@ body {
 
 .header {
   display: flex;
-  justify-content:flex-start;
+  justify-content: space-between;
   align-items: center;
   height: 50px;
   padding: 10px 75px;
-  background-color: aqua;
+  background-color: #1F2937;
+  /* background-color: aqua; */
 }
 
-.header-content {
-  display: flex;
-  flex: 1;
-  justify-content: space-between;
-  align-items: center;
-  background-color: #1F2937
-}
-
-.website-name{
+.header-logo {
   color: #F9FAF8;
+  margin: 0;
   font-size: 24px;
-  background: darkcyan;
+  /* background: darkcyan; */
 }
 
 .header-links {
   display: flex;
   gap: 20px;
-  color: #F9FAF8;
-  font-size: 18px;
   list-style: none;
   margin: 0px;
   padding: 0px;
-  background: darkcyan;
+  /* background: darkcyan; */
+}
+
+a {
+  color: #F9FAF8;
+  font-size: 18px;
+  text-decoration: none;
 }
 
 /*--HERO BOX-----------------------*/
@@ -52,18 +50,19 @@ body {
 .hero-box {
   display: flex;
   flex: 1;
-  padding: 30px 75px;
+  padding: 60px 75px;
   color: white;
-  background-color: lightpink;
+  background-color: #1F2937;
 }
 
 .hero-box-left {
   display: flex;
   flex: 1;
   flex-direction: column;
-  padding: 12px 12px 12px 0px;
+  padding: 12px 20px 12px 0px;
   margin: 0px;
-  background-color: darkblue;
+  gap: 4px;
+  /* background-color: darkblue; */
 }
 
 .hero-box-right {
@@ -81,11 +80,11 @@ body {
   font-weight: 800;
   color: #F9FAF8;
   margin: 0px;
-  background-color: red;
+  /* background-color: red; */
 }
 
 #hero-secondary-text {
-  background-color: red;
+  /* background-color: red; */
   margin: 0px;
   color: #E5E7EB;
   font-size: 18px;
@@ -108,6 +107,7 @@ body {
   flex-direction: column;
   flex: 1;
   padding: 30px 75px;
+  gap: 30px;
   background-color: lightblue;
 }
 
@@ -117,7 +117,7 @@ body {
   font-weight: 800;
   text-align: center;
   background-color: darkcyan;
-  margin: 30px 0;
+  margin: 0;
 }
 
 .info-container {
