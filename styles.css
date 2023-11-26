@@ -4,8 +4,12 @@ body {
   overflow: hidden;
   margin: 0px;
   flex-direction: column;
+  padding-left: 100px;
+  padding-right: 100px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+
 
 /*--HEADER-----------------------*/
 
@@ -50,6 +54,36 @@ body {
   background-color: lightpink;
 }
 
+h1 {
+  background-color: red;
+}
+
+p {
+  background-color: red;
+}
+
+button {
+  color: #F9FAF8;
+  background-color: #3882F6;
+}
+
+.hero-box-left {
+  display: flex;
+  flex: 1;
+  padding: 0px;
+  margin: 0px;
+  flex-direction: column;
+  background-color: darkblue;
+}
+
+.hero-box-right {
+  display: flex;
+  flex: 1;
+  padding: 0px;
+  margin: 0px;
+  background-color: grey;
+}
+
 /*--INFO BOX-----------------------*/
 
 .info-box {
@@ -63,7 +97,7 @@ body {
 .quote-box {
   display: flex;
   flex: 1;
-  background-color: lightgreen;
+  background-color: #b3edb3;
 }
 
 /*--SIGN-UP BOX-----------------------*/
