@@ -47,24 +47,9 @@ body {
 
 .hero-box {
   display: flex;
-  flex: 1;
-  justify-content: center;
-  align-items: center;
+  padding: 15px 0px 15px 0px;
   color: white;
   background-color: lightpink;
-}
-
-h1 {
-  background-color: red;
-}
-
-p {
-  background-color: red;
-}
-
-button {
-  color: #F9FAF8;
-  background-color: #3882F6;
 }
 
 .hero-box-left {
@@ -81,7 +66,25 @@ button {
   flex: 1;
   padding: 0px;
   margin: 0px;
+  justify-content: center;
+  align-items: center;
   background-color: grey;
+}
+
+#hero-main-text {
+  margin: 0px;
+  background-color: red;
+}
+
+#hero-secondary-text {
+  margin: 0px;
+  background-color: red;
+}
+
+#hero-button {
+
+  color: #F9FAF8;
+  background-color: #3882F6;
 }
 
 /*--INFO BOX-----------------------*/
