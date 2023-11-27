@@ -1,5 +1,5 @@
 body {
-  height: 1000px;
+  height: 100vh;
   display: flex;
   /* overflow: hidden; */
   margin: 0px;
@@ -50,7 +50,7 @@ a {
 
 .hero-box {
   display: flex;
-  flex: 1 0 auto;
+  flex: 1;
   padding: 60px 75px;
   color: white;
   background-color: #1F2937;
@@ -106,7 +106,7 @@ a {
 .info-box {
   display: flex;
   flex-direction: column;
-  flex: 1 0 auto;
+  flex: 1;
   padding: 30px 75px 60px 75px;
   gap: 30px;
   background-color: white;
@@ -155,7 +155,7 @@ a {
 .quote-box {
   display: flex;
   flex-direction: column;
-  flex: 1 0 auto;
+  flex: 1;
   padding: 70px 225px;
   background-color: #E5E7EB;
 }
@@ -180,7 +180,7 @@ a {
 
 .sign-up-box {
   display: flex;
-  flex: 1 0 auto;
+  flex: 1;
   padding: 70px 125px;
   background-color: white;
 }
@@ -223,7 +223,7 @@ a {
   background-color: #1F2937;
   color: #F9FAF8;
   height: 50px;
-  flex: 1 0 auto;
+  flex-shrink: 0;
   font-size: 12px;
   display: flex;
   justify-content: center;
