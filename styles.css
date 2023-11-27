@@ -50,7 +50,7 @@ a {
 
 .hero-box {
   display: flex;
-  flex: 1;
+  flex: 1 0 auto;
   padding: 60px 75px;
   color: white;
   background-color: #1F2937;
@@ -106,7 +106,7 @@ a {
 .info-box {
   display: flex;
   flex-direction: column;
-  flex: 1;
+  flex: 1 0 auto;
   padding: 30px 75px 60px 75px;
   gap: 30px;
   background-color: white;
@@ -154,16 +154,34 @@ a {
 
 .quote-box {
   display: flex;
-  flex: 1;
-  background-color: #b3edb3;
+  flex-direction: column;
+  flex: 1 0 auto;
+  padding: 70px 225px;
+  background-color: #E5E7EB;
+}
+
+#quote {
+  font-size: 36px;
+  font-weight: 200;
+  line-height: 1;
+  margin: 0;
+  font-style: italic;
+  /* background-color: lightskyblue; */
+}
+
+#quote-credit {
+  font-weight: bold;
+  text-align: end;
+  margin-top: 5px;
+  /* background-color: lightcoral; */
 }
 
 /*--SIGN-UP BOX-----------------------*/
 
 .sign-up-box {
   display: flex;
-  flex: 1;
-  background-color: lightyellow;
+  flex: 1 0 auto;
+  background-color: lightsteelblue;
 }
 
 /*--FOOTER-----------------------*/
@@ -172,6 +190,7 @@ a {
   background-color: #1F2937;
   color: #F9FAF8;
   height: 50px;
+  flex: 1 0 auto;
   font-size: 12px;
   display: flex;
   justify-content: center;
