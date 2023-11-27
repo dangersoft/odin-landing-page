@@ -181,7 +181,40 @@ a {
 .sign-up-box {
   display: flex;
   flex: 1 0 auto;
-  background-color: lightsteelblue;
+  padding: 70px 125px;
+  background-color: white;
+}
+
+.sign-up-rect {
+  display: flex;
+  flex: 1;
+  padding: 35px 80px;
+  justify-content: space-between;
+  border-radius: 5px;
+  background-color: #3882F6;
+}
+
+.sign-up-content {
+  color: #F9FAF8;
+}
+
+.sign-up-main-text {
+  margin: 0;
+}
+
+.sign-up-secondary-text {
+  font-size: 14px;
+  font-weight: 300;
+}
+
+#sign-up-button {
+  width: 100px;
+  align-self: center;
+  border: 2px solid white;
+  border-radius: 5px;
+  padding: 4px 0px;
+  color: #F9FAF8;
+  background-color: #3882F6;
 }
 
 /*--FOOTER-----------------------*/
