@@ -4,8 +4,8 @@ body {
   /* overflow: hidden; */
   margin: 0px;
   flex-direction: column;
-  padding-left: 250px;
-  padding-right: 250px;
+  /* padding-left: 250px;
+  padding-right: 250px; */
   background-color: darkgrey;
   font-family: 'Roboto', sans-serif;
 }
@@ -19,7 +19,7 @@ body {
   justify-content: space-between;
   align-items: center;
   height: 50px;
-  padding: 10px 75px;
+  padding: 16px 215px;
   background-color: #1F2937;
   /* background-color: aqua; */
 }
@@ -51,7 +51,7 @@ a {
 .hero-box {
   display: flex;
   flex: 1;
-  padding: 60px 75px;
+  padding: 100px 215px;
   color: white;
   background-color: #1F2937;
 }
@@ -107,7 +107,7 @@ a {
   display: flex;
   flex-direction: column;
   flex: 1;
-  padding: 30px 75px 60px 75px;
+  padding: 30px 215px 60px 215px;
   gap: 30px;
   background-color: white;
 }
@@ -124,7 +124,7 @@ a {
 .info-container {
   display: flex;
   justify-content: center;
-  gap: 55px;
+  gap: 80px;
   /* background-color: darkkhaki; */
 }
 
@@ -133,21 +133,22 @@ a {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  max-width: 115px;
+  max-width: 150px;
   gap: 7px;
   /* background-color: brown; */
 }
 
 .mini-box-only {
-  width: 115px;
-  height: 115px;
-  border-radius: 8px;
+  width: 150px;
+  height: 150px;
+  border-radius: 10px;
   border: 3px solid #3882F6;
 }
 
 .mini-box-text {
+  color: grey;
   text-align: center;
-  font-size: 12px;
+  font-size: 15px;
 }
 
 /*--QUOTE BOX-----------------------*/
@@ -156,7 +157,7 @@ a {
   display: flex;
   flex-direction: column;
   flex: 1;
-  padding: 70px 225px;
+  padding: 85px 225px;
   background-color: #E5E7EB;
 }
 
@@ -170,6 +171,7 @@ a {
 }
 
 #quote-credit {
+  font-size: 20px;
   font-weight: bold;
   text-align: end;
   margin-top: 5px;
@@ -181,7 +183,7 @@ a {
 .sign-up-box {
   display: flex;
   flex: 1;
-  padding: 70px 125px;
+  padding: 70px 225px;
   background-color: white;
 }
 
