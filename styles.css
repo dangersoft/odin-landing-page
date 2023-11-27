@@ -220,12 +220,12 @@ a {
 /*--FOOTER-----------------------*/
 
 .footer {
+  display: flex;
+  flex-shrink: 0;
+  justify-content: center;
+  align-items: center;
   background-color: #1F2937;
   color: #F9FAF8;
   height: 50px;
-  flex-shrink: 0;
   font-size: 12px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
